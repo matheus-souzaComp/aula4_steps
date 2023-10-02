@@ -1,0 +1,7 @@
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Setup node
+     uses: actions/setup-node@v3
+   - name: verification of node version
+     run: node --version
